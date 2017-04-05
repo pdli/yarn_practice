@@ -12,8 +12,8 @@
   ],
   "files": [
     "index.js",
-    "./lib/*.js",
-    "./bin/*.js"
+    "lib/*.js",
+    "bin/*.js"
   ],
   "bin": {
     "yarnProject-cli": "bin/yarnProject-cli.js"
