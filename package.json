@@ -1,0 +1,27 @@
+{
+  "name": "test-yarn-project",
+  "version": "1.0.2",
+  "description": "This is only for test of yarn package manager",
+  "main": "index.js",
+  "repository": "git@github.houston.entsvcs.net:pli/yarnProject.git",
+  "author": "pli <pli@hpe.com>",
+  "license": "MIT",
+  "keywords": [
+    "test",
+    "yarnPorject"
+  ],
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "bin/*.js"
+  ],
+  "bin": {
+    "yarnProject-cli": "bin/yarnProject-cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-jen": "^1.0.6",
+    "node-xlsx": "^0.7.4",
+    "selenium-webdriver": "^3.3.0"
+  }
+}
