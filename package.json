@@ -1,6 +1,6 @@
 {
   "name": "test-yarn-project",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "This is only for test of yarn package manager",
   "main": "index.js",
   "repository": "git@github.houston.entsvcs.net:pli/yarnProject.git",
@@ -10,6 +10,11 @@
     "test",
     "yarnPorject"
   ],
+  "directories": {
+    "proj": "./proj",
+    "bin": "./bin",
+    "lib": "./lib"
+  },
   "files": [
     "index.js",
     "extractExcel.js",
