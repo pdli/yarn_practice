@@ -4,6 +4,6 @@
 
 console.log("Hello World! ");
 
-var excel = require('./lib/extractExcel');
+var excel = require('./proj/extractExcel');
 
 console.log(  excel.propelAccountList );
