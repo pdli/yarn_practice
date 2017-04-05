@@ -1,6 +1,6 @@
 {
   "name": "test-yarn-project",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is only for test of yarn package manager",
   "main": "index.js",
   "repository": "git@github.houston.entsvcs.net:pli/yarnProject.git",
@@ -12,6 +12,7 @@
   ],
   "files": [
     "index.js",
+    "proj/*.js",
     "lib/*.js",
     "bin/*.js"
   ],
